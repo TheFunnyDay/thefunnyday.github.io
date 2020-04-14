@@ -14,7 +14,6 @@ document.getElementById("promo").style.cssText = `
 `;
 //меню
 document.querySelector("#menu").innerHTML = `
-<div id="menu">
         <ul>
           <li>
             <a href="https://github.com/TheFunnyDay">
@@ -38,8 +37,10 @@ document.querySelector("#menu").innerHTML = `
           </li>
 
         </ul>
-      </div>`
-
+`
+document.querySelector("#menu").style.cssText = ` 
+      backdrop-filter: blur(10px);
+`
 //код сайта
 document.querySelector("#promo").innerHTML = `
 <div id="promoblur">
