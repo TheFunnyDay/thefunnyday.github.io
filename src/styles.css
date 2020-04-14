@@ -7,7 +7,23 @@
 a {
   text-decoration: none;
 }
+#menu {
+  z-index: 999;
+  position: fixed;
+  bottom:  0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.855);
+  backdrop-filter: blur(10px);
 
+}
+#menu  a {color: white;}
+#menu li {
+  color: white;
+  float: left;
+  text-decoration: none;
+  list-style: none;
+  padding: 20px;
+}
 #promo {
   color: white;
   text-align: center;
@@ -30,9 +46,10 @@ a {
 }
 
 #posts {
-  display: block;
+  display: flow-root;
   max-width: 700px;
   margin: 0 auto;
+  padding-bottom: 100px;
 }
 .post-cont {
   user-select: none;
@@ -57,10 +74,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
 }
-#post:hover {
-  transition: 1s;
-  background-size: 300%;
-}
+
 
 .post-cont .postname {
   position: relative;

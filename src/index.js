@@ -13,14 +13,39 @@ document.getElementById("promo").style.cssText = `
     pointer-events: none
 `;
 //меню
+document.querySelector("#menu").innerHTML = `
+<div id="menu">
+        <ul>
+          <li>
+            <a href="">
+              <p>GITHUB</p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <p>VK</p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <p>VK GROUP</p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <p>FUNNYCOMPANY</p>
+            </a>
+          </li>
 
+        </ul>
+      </div>`
 
 //код сайта
 document.querySelector("#promo").innerHTML = `
 <div id="promoblur">
 <img src="${CompanyAvatar}" width="200px"/>
       <h1>${CompanyName}</h1>
-      <h2>Здесь я тестирую тотальный пиздец во всех его смыслах</h2>
+      <h2>Самый лучший портфолио</h2>
     </div>
     </div>
 `;
@@ -33,8 +58,9 @@ document.querySelector("#posts").style.cssText = `
   backdrop-filter: blur(15px);
 `;
 
-//Посты
 
+
+//Посты
 document.addEventListener("DOMContentLoaded", () => {
   const posts = document.querySelector("#posts");
   const postone = (link, postName, postImg) => {
@@ -54,12 +80,11 @@ document.addEventListener("DOMContentLoaded", () => {
     return posttwo;
   };
   //Добавлять посты начиная отсюда
-  posts.appendChild(
-    postone(
-      "https://pfn2r.csb.app/",
-      "Тотальный пиздец может быть и совместным...",
-      `https://i.ibb.co/wY1fsQd/Screenshot-5.jpg`
-    )
-  );
-  posts.appendChild(postone("", "Старт блога", `${CompanyAvatar}`));
+  posts.appendChild(postone("https://gmvlauncher.site/launcher_desktop/", "GMV LAUNCHER", `https://i.ibb.co/CmfmhPg/Screenshot-1.png}`));
+  posts.appendChild(postone("*", "SHIKI THEME", `https://i.ibb.co/xzn17sS/Screenshot-5.png`));
+  posts.appendChild(postone("https://projectjpswru.github.io/", "PROJECT JPSWRU", `https://i.ibb.co/GMghdbC/Screenshot-4.png`));
+  posts.appendChild(postone("https://hentaiteam.github.io/", "HENTAI`TEAM", `https://i.ibb.co/7NXnDmH/Screenshot-3.png`));
+  posts.appendChild(postone("works/SB/sb-redesign/", "Серия Журналов CБ REDESIGN", `https://i.ibb.co/JpS5tF0/Screenshot-6.png`));
+  posts.appendChild(postone("works/SB/sb-original/", "Серия Журналов CБ", `https://i.ibb.co/JpS5tF0/Screenshot-6.png`));
+  posts.appendChild(postone("", "Мой портфолио", `${CompanyAvatar}`));
 });
