@@ -17,22 +17,22 @@ document.querySelector("#menu").innerHTML = `
 <div id="menu">
         <ul>
           <li>
-            <a href="">
+            <a href="https://github.com/TheFunnyDay">
               <p>GITHUB</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://vk.com/tfunnyday">
               <p>VK</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://vk.com/funny_code">
               <p>VK GROUP</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://vk.com/funncomp">
               <p>FUNNYCOMPANY</p>
             </a>
           </li>
