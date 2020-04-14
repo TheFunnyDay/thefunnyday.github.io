@@ -1,4 +1,4 @@
-let CompanyName = "FUNNY CODE  BLOG"; //Название компании
+let CompanyName = "FUNNY CODE"; //Название компании
 let CompanyAvatar =
   "https://sun9-69.userapi.com/c854328/v854328980/1d51c3/xGebZwrEHCI.jpg"; //Лого компании
 
@@ -12,6 +12,8 @@ document.getElementById("promo").style.cssText = `
     -webkit-user-select: none;
     pointer-events: none
 `;
+//меню
+
 
 //код сайта
 document.querySelector("#promo").innerHTML = `

@@ -1,0 +1,120 @@
+.testsub {
+   position: relative;
+   height: 600px;
+   width: 300px;
+   left: -400px;
+    border: 1px ridge black;
+   background-size: cover; background-repeat: repeat-y;
+}
+
+.testsub img{
+   position: relative;
+   top: 50px;
+
+}
+
+.subinf {
+	width: 200px;
+	position: relative;
+     left: 150px;
+     top: -400px;
+  
+
+}
+
+
+.sbop {
+   font-family: COMIC SANS MS;
+   color: white;
+}
+
+.subbtp {
+  width: 200px;
+      position: relative;
+     left: -400px;
+     top: -300px;
+
+}
+
+.subinfp{
+      width: 200px;
+  position: relative;
+     left: -400px;
+     top: -280px;
+
+}
+
+/* VIP */
+
+.testsub2 {
+  position: relative;
+  width: 300px;
+  top: -789px;
+  height: 600px;
+   border: 1px ridge black;
+   background-size: cover; background-repeat: repeat-y;
+}
+
+.testsub2 img{
+   position: relative;
+   top: 50px;
+
+}
+
+
+
+.subbtp2 {
+  width: 200px;
+      position: relative;
+     top: -1090px;
+
+}
+
+.subinfp2 {
+      width: 200px;
+  position: relative;
+     top: -1070px;
+
+}
+
+/* ULTRA */
+
+.testsub3 {
+   position: relative;
+   height: 600px;
+   width: 300px;
+   left: 400px;
+   top: -1578px;
+   border: 1px ridge black;
+   background-size: cover; background-repeat: repeat-y;
+}
+
+.testsub3 img{
+   position: relative;
+   top: 50px;
+
+}
+
+
+.subbtp3 {
+  width: 200px;
+      position: relative;
+     top: -1882px;
+     left: 400px;
+
+}
+
+.subinfp3 {
+      width: 200px;
+  position: relative;
+     top: -1857px;
+     left: 400px;
+}
+
+
+
+.subcenter {
+  height: 760px;
+}
+
+html {padding: 0;}
