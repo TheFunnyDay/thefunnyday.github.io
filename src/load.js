@@ -11,5 +11,8 @@ setTimeout(function() {
   document.getElementById("loading").style.opacity = "0%";
   document.getElementById("loading").style.height = "0px";
 }, 2000);
-
+let load = document.getElementById("loading");
+setTimeout(function() {
+    load.remove();
+  }, 5000);
   
