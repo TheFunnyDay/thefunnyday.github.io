@@ -1,0 +1,58 @@
+.about { width: 100%;height: 300px;background-size: cover; background-repeat: repeat-y;; }
+.img {;float: left;height: 100%;width: 400px;background-color:rgba(0, 0, 0, 0.86);       display: flex;
+        justify-content: center; transition: 0.20s;}
+.img img{align-self:center; border-radius: 1111px; border:3px solid white; transition: 0.30s;}
+.img img:hover{width: 230px;height: 230px; border:12px solid white;}
+.img:hover {background-color:#080808;width: 450px;}
+.text {padding: 50px 500px;color: black;}
+.menu1 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 50px;
+  width: 600px;
+
+}
+.menu1 li {
+
+  float: left;
+}
+.menu1 li a {
+  color: #ffff;
+  display: block;
+  height: 30px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 30px;
+  transition: 0.20s;
+
+}
+.menu1 li a:hover {
+  color:red;
+
+  }
+.menu {
+  width: 259px;
+  margin: 0 auto;
+
+}
+.menu:before{
+  content: '';
+  display: block;
+  height: 50px;
+  width: 100%;
+  background: #000;
+  border-top: 2px solid white; 
+  position: absolute;
+  left: 0;
+  z-index: -1;
+
+}
+     
+     .TopLogo {
+
+  color:#053200;width:100%;height:250px;
+  background-image: url(http://jllsly.com/wallpapers/rise-of-the-tomb-raider-wallpapers-for-iphone-Is-Cool-Wallpapers.jpg);
+   background-size: cover; background-repeat: repeat-y;
+}

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/*dark mode*/
+/*Главная страница*/
+.b-catalog_entry .cover .title {
+  color: #fff;
+}
+
+.b-catalog_entry .cover .misc span {
+  color: #c1c1c1;
+}
+
+/*Профиль*/
+.x1200 .l-page {
+  background: #434343;
+}
+
+header.head .notice {
+  clear: left;
+  color: #d7d7d7;
+}
+
+header.head h1, header.head h2 {
+  border-bottom: none;
+  color: #fff;
+}
+
+.b-stats_bar .stat_names .stat_name a {
+  color: #fff;
+}
+
+.b-stats_bar a.title {
+  color: #fff;
+}
+
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a {
+  color: #fff;
+}
+
+.headline > a, .midheadline > a, .subheadline > a {
+  color: #fff;
+}
+
+.headline, .midheadline, .subheadline {
+  background: #4a4a4a;
+  border-left: 5px solid #686868;
+  color: #fff;
+}
+
+.p-profiles .profile-head .c-history .entry .title {
+  color: #fff;
+}
+/*# sourceMappingURL=FUNNY-dark-theme.css.map */

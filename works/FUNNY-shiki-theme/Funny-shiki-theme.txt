@@ -1,0 +1,39 @@
+
+/*    FUNNY-shiki-theme | by TheFunnyDay  */
+/*    | Скопируйте содержимое данного файла к себе на сайт в раздел 'Настройки' -> 'Внешний вид сайта'. */
+/*    | Чтобы раскомметировать код, уберите слеш(/) со звёздочкой, и тогда стиль будет работать. */
+
+
+
+/*Основной стиль*/
+@import url('https://thefunnyday.github.io/works/FUNNY-shiki-theme/style/theme-main-version.css'); 
+
+/*Тёмная тема*/
+/*@import url('https://thefunnyday.github.io/works/FUNNY-shiki-theme/style/FUNNY-dark-theme.css');*/
+
+
+
+/*Обложка для профиля*/
+.p-profiles .profile-head[data-user-id='Ваш id']:before {
+  content: "";
+  display: block;
+  background: url(ссылка на картинку); 
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 400px;
+/*Медиа запрос для отображения обложки на телефоне*/
+@media (min-width: 481px){
+.p-profiles .profile-head::before { }
+}
+/*Задний фон страницы*/
+/* body {
+  background-size: 100%;
+  background-image:linear-gradient(180deg, rgba(253,29,29,0) 0%, rgba(52,52,52,1) 1000px), url("ссылка на картинку");
+} */
+
+
+
+/*<-- Дополнительные стили -->*/
+
+ /* <-- Отображение рядом с пунктами истории тип Аниме, Манга или Ранобэ. -->*/
+@import url('https://thefunnyday.github.io/works/FUNNY-shiki-theme/style/type.css'); 

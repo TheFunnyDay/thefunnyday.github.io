@@ -1,0 +1,14 @@
+.p-profiles .profile-head:before {
+  content: "";
+  display: block;
+  background-image: none;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 400px;
+  margin: -15px -15px 0;
+}
+@media (min-width: 481px) {.p-profiles .profile-head:before{background-image: none;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 400px;
+  margin: -15px -15px 0;}}

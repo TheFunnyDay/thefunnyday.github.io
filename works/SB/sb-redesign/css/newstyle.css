@@ -1,0 +1,54 @@
+.sbz1 {
+  background: #fff;
+    border: 1px solid #DEDCDE;
+	width: 700px;
+    color: #000;
+    border-radius: 5px;
+    border-bottom: 
+
+
+}
+
+.sbz1 {
+  background: #fff;
+    border: 1px solid #DEDCDE;
+  width: 700px;
+    color: #000;
+    border-radius: 5px;
+    border-bottom: 
+
+
+}
+
+
+.sbb1 {
+  background-color: #fff;
+  width: 80%;
+  color: #000;
+  Font-size: 19px;
+  border-top:  1px solid #9D9D9D;
+  transition: 0.50s
+  
+}
+.sbb1:hover {
+  width:75%;
+  color: #FC0000;
+  border-top:  1px solid #B74B4B;
+}
+
+
+
+.sbb1 {
+	background-color: #fff;
+	width: 80%;
+	color: #000;
+	Font-size: 19px;
+	border-top:  1px solid #9D9D9D;
+  transition: 0.50s
+	
+}
+.sbb1:hover {
+  width:75%;
+  color: #FC0000;
+  border-top:  1px solid #B74B4B;
+}
