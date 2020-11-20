@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
   //Добавлять посты начиная отсюда
   posts.appendChild(postone("https://thefunnyday.github.io/3D-view/", "3D-view", `https://i.ibb.co/YZxHZWh/Screenshot-5.png`));
   posts.appendChild(postone("https://nccih.csb.app/", "fakeload.js", `https://i.ibb.co/6svzshj/Screenshot-1.jpg`));
-  posts.appendChild(postone("https://gmvlauncher.site/launcher_desktop/", "GMV LAUNCHER", `https://i.ibb.co/CmfmhPg/Screenshot-1.png`));
+  posts.appendChild(postone("https://www.gmvlauncher.site/", "GMV LAUNCHER", `https://i.ibb.co/CmfmhPg/Screenshot-1.png`));
   posts.appendChild(postone("*", "SHIKI THEME", `https://i.ibb.co/xzn17sS/Screenshot-5.png`));
   posts.appendChild(postone("https://projectjpswru.github.io/", "PROJECT JPSWRU", `https://i.ibb.co/GMghdbC/Screenshot-4.png`));
   posts.appendChild(postone("https://hentaiteam.github.io/", "HENTAI`TEAM", `https://i.ibb.co/7NXnDmH/Screenshot-3.png`));
