@@ -81,6 +81,8 @@ document.addEventListener("DOMContentLoaded", () => {
     return posttwo;
   };
   //Добавлять посты начиная отсюда
+    posts.appendChild(postone("https://github.com/GenshinLauncher/genshin-launcher", "Genshin Launcher", `https://i.ibb.co/gZc6vDR/image.png`));
+
   posts.appendChild(postone("https://thefunnyday.github.io/3D-view/", "3D-view", `https://i.ibb.co/YZxHZWh/Screenshot-5.png`));
   posts.appendChild(postone("https://nccih.csb.app/", "fakeload.js", `https://i.ibb.co/6svzshj/Screenshot-1.jpg`));
   posts.appendChild(postone("https://www.gmvlauncher.site/", "GMV LAUNCHER", `https://i.ibb.co/CmfmhPg/Screenshot-1.png`));
